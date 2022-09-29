@@ -8,7 +8,7 @@ const Completeall = () => {
   return (
     <button
       onClick={handleButtonClick}
-      className="w-full p-3.5 rounded-[10px] text-white text-2xl bg-blue-300"
+      className="w-full p-3.5 rounded-[10px] text-white text-2xl bg-sky-700"
     >
       Activity Completed
     </button>
