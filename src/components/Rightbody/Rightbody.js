@@ -35,16 +35,20 @@ const Rightbody = () => {
       </div>
       <div className="details">
         <h3>Excercise Details</h3>
-        <div>
-          <h4>
-            Excercise Time <span>200s</span>
+        <div className=" bg-slate-300 px-[30px] py-[15px] rounded mb-[20px]">
+          <h4 className="py-[10px] font-bold text-lg">
+            Excercise Time <span className="font-light ml-[80px]">200s</span>
           </h4>
-          <h4>
-            Excercise Time <span>200s</span>
+        </div>
+        <div className=" bg-slate-300 px-[30px] py-[15px] rounded">
+          <h4 className="py-[10px] font-bold text-lg">
+            Excercise Time <span className="font-light ml-[80px]">200s</span>
           </h4>
         </div>
       </div>
-      <button>Activity Completed</button>
+      <button className="bg-cyan-700  px-[80px] py-[10px] rounded-md mt-[30px] ml-[35px]">
+        Activity Completed
+      </button>
     </div>
   );
 };

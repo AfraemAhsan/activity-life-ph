@@ -7,7 +7,7 @@ const Cartdetail = ({ cart }) => {
         <img src={cart.picture} alt="" className="w-full" />
         <h4>{cart.name}</h4>
         <h4 className="py-[10px]">{cart.time}</h4>
-        <button className="bg-emerald-600  px-[80px] py-[10px] rounded-md">
+        <button className="bg-cyan-700  px-[80px] py-[10px] rounded-md">
           Add to list
         </button>
       </div>
