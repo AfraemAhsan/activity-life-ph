@@ -3,7 +3,7 @@ import cardData from "../../../utilize/data.json";
 
 const MainCart = ({ data, setExerciseTime }) => {
   const { title, img, description, time, age, id } = data;
-  const hadleButtonCLick = (id) => {
+  const handleButtonCLick = (id) => {
     const item = cardData.find((i) => i.id === id);
     localStorage.setItem("cardData", JSON.stringify(item));
     const clickTime = parseInt(item.time);
@@ -26,7 +26,7 @@ const MainCart = ({ data, setExerciseTime }) => {
         <span className="font-bold">{time}sec</span>
       </div>
       <button
-        onClick={() => hadleButtonCLick(id)}
+        onClick={() => handleButtonCLick(id)}
         className="w-1/2 p-3.5 rounded-[10px] flex items-center justify-center mx-auto mt-5 bg-blue-700 text-white"
       >
         Add to list
