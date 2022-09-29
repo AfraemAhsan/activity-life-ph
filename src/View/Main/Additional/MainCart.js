@@ -27,7 +27,7 @@ const MainCart = ({ data, setExerciseTime }) => {
       </div>
       <button
         onClick={() => hadleButtonCLick(id)}
-        className="w-1/2 p-3.5 rounded-[10px] flex items-center justify-center mx-auto mt-5 bg-blue-700"
+        className="w-1/2 p-3.5 rounded-[10px] flex items-center justify-center mx-auto mt-5 bg-blue-700 text-white"
       >
         Add to list
       </button>

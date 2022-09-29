@@ -3,7 +3,7 @@ import React from "react";
 const Blogs = () => {
   return (
     <div>
-      <div className="flex flex-col space-y-3 text-center space-between ">
+      <div className="flex flex-col space-y-3 font-semibold text-center capitalize space-between">
         <h4>What is React</h4>
         <span className="w-[820px] text-center justify-center mx-auto">
           React is a declarative, efficient, and flexible JavaScript library for

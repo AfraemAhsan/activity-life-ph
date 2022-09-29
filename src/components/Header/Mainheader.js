@@ -1,11 +1,12 @@
 import React from "react";
-import { CgGym } from "react-icons/cg";
+
+import { GrCloudComputer } from "react-icons/gr";
 
 const MainHeader = () => {
   return (
     <div className="flex flex-col w-full">
       <h3 className="pt-[40px] pl-[10px] text-2xl text-emerald-500 font-extrabold">
-        <CgGym />
+        <GrCloudComputer />
         Activity of <span className="text-sky-700">Life</span>
       </h3>
       {/* <div className="flex flex-row text-center pl-[150px] pt-[50px] pb-[50px]">
