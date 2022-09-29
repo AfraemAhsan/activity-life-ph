@@ -4,7 +4,6 @@ import Rightbody from "../Rightbody/Rightbody";
 import "./Maincart.css";
 
 const Maincart = () => {
-  const handleControl = () => {};
   return (
     <div>
       <div className="flex flex-row text-center pl-[150px] pt-[50px] pb-[50px]">
@@ -26,7 +25,6 @@ const Maincart = () => {
           <Rightbody></Rightbody>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 };
