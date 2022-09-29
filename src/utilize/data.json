@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "CHEST PRESS",
+    "description": "Mop the floor, wipe the countertop and don't forget to take out the trash!",
+    "age": "24-30",
+    "time": "30",
+    "img": "/image/img1.jpg"
+  },
+  {
+    "id": "2",
+    "title": "SEATED DIP",
+    "description": "Mop the floor, wipe the countertop and don't forget to take out the trash!",
+    "age": "24-30",
+    "time": "38",
+    "img": "/image/img2.jpg"
+  },
+  {
+    "id": "3",
+    "title": " PREACHER CURL BENCH",
+    "description": "Mop the floor, wipe the countertop and don't forget to take out the trash!",
+    "age": "24-30",
+    "time": "40",
+    "img": "/image/img3.jpg"
+  },
+  {
+    "id": "4",
+    "title": "ARM CURL",
+    "description": "Mop the floor, wipe the countertop and don't forget to take out the trash!",
+    "age": "24-30",
+    "time": "30",
+    "img": "/image/img4.jpg"
+  },
+  {
+    "id": "5",
+    "title": "TRICEPS PRESS ",
+    "description": "Mop the floor, wipe the countertop and don't forget to take out the trash!",
+    "age": "24-30",
+    "time": "30",
+    "img": "/image/img5.jpg"
+  },
+  {
+    "id": "6",
+    "title": "LATERAL RAISES",
+    "description": "Mop the floor, wipe the countertop and don't forget to take out the trash!",
+    "age": "24-30",
+    "time": "30",
+    "img": "/image/img6.png"
+  }
+]

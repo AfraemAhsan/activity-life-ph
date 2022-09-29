@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Blogs = () => {
   return (
     <div>
       <div className="flex flex-col space-y-3 text-center space-between ">
@@ -38,4 +38,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Blogs;
