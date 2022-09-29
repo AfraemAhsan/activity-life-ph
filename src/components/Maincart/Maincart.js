@@ -6,10 +6,15 @@ import "./Maincart.css";
 const Maincart = () => {
   return (
     <div>
-      <img
-        src="https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg"
-        alt=""
-      />
+      <div className="flex flex-row text-center pl-[150px] pt-[50px] pb-[50px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665__340.png"
+          alt=""
+          className="w-[100px] rounded-lg  "
+        />
+        <h3 className="pt-[40px]">Activity of Live</h3>
+      </div>
+
       <div className="cart-container">
         {" "}
         <div>
