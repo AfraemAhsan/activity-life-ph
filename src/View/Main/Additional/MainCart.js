@@ -23,11 +23,11 @@ const MainCart = ({ data, setExerciseTime }) => {
       </div>
       <div className="flex items-center justify-between w-[45%]">
         <span>Time required:</span>
-        <span className="font-bold">{time}s</span>
+        <span className="font-bold">{time}sec</span>
       </div>
       <button
         onClick={() => hadleButtonCLick(id)}
-        className="w-1/2 p-3.5 rounded-[10px] flex items-center justify-center mx-auto mt-5 bg-blue-400"
+        className="w-1/2 p-3.5 rounded-[10px] flex items-center justify-center mx-auto mt-5 bg-blue-700"
       >
         Add to list
       </button>
