@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cartdetail from "../Cartdetail/Cartdetail";
 
-const Leftbody = () => {
+const Leftbody = ({ handleControl }) => {
   const [carts, setCarts] = useState([]);
   useEffect(() => {
     fetch("data.json")
@@ -12,7 +12,11 @@ const Leftbody = () => {
   return (
     <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {carts.map((cart) => (
-        <Cartdetail key={cart.id} cart={cart}></Cartdetail>
+        <Cartdetail
+          key={cart.id}
+          cart={cart}
+          handleControl={handleControl}
+        ></Cartdetail>
       ))}
     </div>
   );

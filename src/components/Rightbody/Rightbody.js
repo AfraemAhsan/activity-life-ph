@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Rightbody = () => {
+  const [timebreak, newTimebreak] = useState();
+
   return (
     <div>
       <div className="flex flex-row profile">
@@ -27,17 +29,17 @@ const Rightbody = () => {
       </div>
       <h2 className="text-lg font-semibold">Add A Break</h2>
       <div className="flex flex-row space-x-5 py-[15px] second ">
-        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
-        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
-        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
-        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
-        <h5 className="px-[15px]  py-[15px] bg-slate-400 rounded-3xl">10s</h5>
+        <h5 className="px-[15px] py-[15px] bg-slate-100 rounded-3xl">10s</h5>
+        <h5 className="px-[15px] py-[15px] bg-slate-100 rounded-3xl">10s</h5>
+        <h5 className="px-[15px] py-[15px] bg-slate-100 rounded-3xl">10s</h5>
+        <h5 className="px-[15px] py-[15px] bg-slate-100 rounded-3xl">10s</h5>
+        <h5 className="px-[15px]  py-[15px] bg-slate-100 rounded-3xl">10s</h5>
       </div>
       <div className="details">
         <h3>Excercise Details</h3>
         <div className=" bg-slate-300 px-[30px] py-[15px] rounded mb-[20px]">
           <h4 className="py-[10px] font-bold text-lg">
-            Excercise Time <span className="font-light ml-[80px]">200s</span>
+            Excercise Time <span className="font-light ml-[80px]"></span>
           </h4>
         </div>
         <div className=" bg-slate-300 px-[30px] py-[15px] rounded">
