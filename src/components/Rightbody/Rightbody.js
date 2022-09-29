@@ -9,27 +9,29 @@ const Rightbody = () => {
           className="w-[70px] h-[70px]"
           alt=""
         />
-        <div>
+        <div className="pt-[10px] px-[10px]">
           <h2>Zahid</h2>
           <span>Location : </span>
         </div>
       </div>
-      <div className="about-healty">
-        <h3>
-          75 <span>weight</span>
+      <div className="flex flex-row about-healty py-[20px] px-[10px]">
+        <h3 className="flex flex-col text-2xl font-semibold pr-[20px]">
+          75 <span className="text-sm font-light"> kg weight</span>
         </h3>
-        <h3>
-          75 <span>weight</span>
+        <h3 className="flex flex-col text-2xl font-semibold pr-[20px]">
+          75 <span className="text-sm font-light"> kg weight</span>
         </h3>
-        <h3>
-          75 <span>weight</span>
+        <h3 className="flex flex-col text-2xl font-semibold pr-[20px]">
+          75 <span className="text-sm font-light"> kg weight</span>
         </h3>
       </div>
-      <div className="second">
-        <h5>10s</h5>
-        <h5>10s</h5>
-        <h5>10s</h5>
-        <h5>10s</h5>
+      <h2 className="text-lg font-semibold">Add A Break</h2>
+      <div className="flex flex-row space-x-5 py-[15px] second ">
+        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
+        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
+        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
+        <h5 className="px-[15px] py-[15px] bg-slate-400 rounded-3xl">10s</h5>
+        <h5 className="px-[15px]  py-[15px] bg-slate-400 rounded-3xl">10s</h5>
       </div>
       <div className="details">
         <h3>Excercise Details</h3>

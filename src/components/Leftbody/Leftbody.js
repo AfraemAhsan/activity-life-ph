@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Cartdetail from "../Cartdetail/Cartdetail";
-import "./Leftbody.css";
 
 const Leftbody = () => {
   const [carts, setCarts] = useState([]);
@@ -11,7 +10,7 @@ const Leftbody = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {carts.map((cart) => (
         <Cartdetail key={cart.id} cart={cart}></Cartdetail>
       ))}

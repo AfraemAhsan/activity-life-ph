@@ -13,7 +13,7 @@ const Maincart = () => {
           className="w-[100px] rounded-lg  "
         />
         <h3 className="pt-[40px] pl-[10px] text-2xl text-emerald-500 font-extrabold">
-          Activity of <span className="text-sky-700">Live</span>
+          Activity of <span className="text-sky-700">Life</span>
         </h3>
       </div>
 
