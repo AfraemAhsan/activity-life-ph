@@ -5,12 +5,19 @@ import "./Maincart.css";
 
 const Maincart = () => {
   return (
-    <div className="cart-container">
-      <div className="grid grid-cols-3">
-        <Leftbody></Leftbody>
-      </div>
-      <div>
-        <Rightbody></Rightbody>
+    <div>
+      <img
+        src="https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg"
+        alt=""
+      />
+      <div className="cart-container">
+        {" "}
+        <div>
+          <Leftbody></Leftbody>
+        </div>
+        <div>
+          <Rightbody></Rightbody>
+        </div>
       </div>
     </div>
   );
